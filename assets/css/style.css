@@ -39,6 +39,37 @@
   padding: 5px 10px;
 }
 
+.slick-next:focus,
+.slick-next:hover,
+.slick-prev:focus,
+.slick-prev:hover {
+  color: inherit !important;
+  outline: 0;
+  background: #005999;
+}
+.epaper-slick-next {
+  text-align: center;
+  background-color: red;
+  padding: 3px;
+  width: 30px;
+  height: 25px;
+}
+.slick-dots {
+  bottom: -30px;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  background: inherit;
+}
+.epaper-slick-prev {
+  text-align: center;
+  background-color: red;
+  padding: 3px;
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  z-index: 17;
+}
 .table-calendar {
   border-collapse: collapse;
   width: 100%;
@@ -245,4 +276,15 @@ footer img {
   background: #165588 !important;
   padding: 5px !important;
   margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .epaper-new-menu {
+    width: 100%;
+    margin-bottom: 8px;
+}
+  .epaper-new-menu-container{
+
+  }
 }
